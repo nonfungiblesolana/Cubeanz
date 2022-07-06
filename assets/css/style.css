@@ -111,7 +111,7 @@ header .logo img {
 
 .main-area__right {
     max-width: 550px;
-    background-color: rgba(255,183,221,.95);
+    background-color: rgba(255,183,221,.97);
     padding: 40px 30px;
     backdrop-filter: blur(10px);
     border-radius: 15px;
