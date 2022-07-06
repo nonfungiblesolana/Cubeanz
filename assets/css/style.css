@@ -1,21 +1,21 @@
-@font-face { font-family: Grinched; src: url('Grinched.otf'); } 
+@font-face { font-family: Retroica; src: url('Retroica.ttf'); } 
 
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Grinched', sans-serif
+    font-family: 'Retroica', sans-serif
 }
 
 head {
 
-    font-family: 'Grinched', sans-serif
+    font-family: 'Retroica', sans-serif
 
 }
 
 body {
     
     overflow-x: hidden;
-    font-family: 'Grinched', sans-serif;
+    font-family: 'Retroica', sans-serif;
     background: url("../img/bg.png") 0% 0% / cover no-repeat;
     color: rgb(0, 0, 0);
     display: flex;
@@ -111,7 +111,7 @@ header .logo img {
 
 .main-area__right {
     max-width: 550px;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(255,183,221,.8);
     padding: 40px 30px;
     backdrop-filter: blur(10px);
     border-radius: 15px;
@@ -264,7 +264,7 @@ header .logo img {
 .right-title {
     position: relative;
     font-size: 36px;
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-weight: 900;
     margin: 0px 0px 20px;
     padding: 0 20px;
@@ -299,7 +299,7 @@ header .logo img {
     text-align: center;
     padding: 0 80px;
     font-size: 16px;
-    color: rgb(255, 255, 255);
+    color: #fff;
     line-height: 1.5;
     font-weight: 500;
 }
@@ -335,7 +335,7 @@ header .logo img {
     position: relative;
     display: flex;
     align-items: center;
-    border-radius: 6px;
+    border-radius: 60px;
     font-weight: 600;
     font-size: 16px;
     line-height: 32px;
@@ -346,7 +346,7 @@ header .logo img {
     transition-duration: 0.3s;
     letter-spacing: 0.5px;
     justify-content: center !important;
-    background: #c03940;
+    background: #82dbff;
     margin-top: 20px;
     margin-bottom: 10px;
     transition: 0.5s;
